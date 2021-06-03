@@ -13,6 +13,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 /* Plugins */
 
 import nuxt_plugin_plugin_de76043e from 'nuxt_plugin_plugin_de76043e' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_googlegtag_5c002834 from 'nuxt_plugin_googlegtag_5c002834' // Source: ./google-gtag.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -62,7 +63,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"chisei","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"hid":"description","name":"description","content":"行動する知性。ジェネレータ！！！（中央大学とは無関係です）"},{"hid":"og:site_name","property":"og:site_name","content":"行動する知性。"},{"hid":"og:type","property":"og:type","content":"website"},{"hid":"og:url","property":"og:url","content":"https:\u002F\u002Fmizphses.github.io\u002Fchisei"},{"hid":"og:title","property":"og:title","content":"行動する知性。"},{"hid":"og:description","property":"og:description","content":"行動する知性。ジェネレータ！！！（中央大学とは無関係です）"},{"hid":"og:image","property":"og:image","content":"https:\u002F\u002Fmizphses.github.io\u002Fchisei\u002Fogp.png"},{"name":"twitter:card","content":"summary_large_image"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fchisei\u002Ffavicon.ico"}],"script":[{"tyle":"text\u002Fjavascript","src":"\u002F\u002Ftypesquare.com\u002F3\u002Ftsst\u002Fscript\u002Fja\u002Ftypesquare.js?5ff6acfe3d584e62aab52866e90393a3","charset":"utf-8"}],"style":[]},
+    head: {"title":"行動する知性ジェネレーター","htmlAttrs":{"lang":"jp"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"hid":"description","name":"description","content":"行動する知性。ジェネレータ！！！（中央大学とは無関係です）"},{"hid":"og:site_name","property":"og:site_name","content":"行動する知性。"},{"hid":"og:type","property":"og:type","content":"website"},{"hid":"og:url","property":"og:url","content":"https:\u002F\u002Fmizphses.github.io\u002Fchisei"},{"hid":"og:title","property":"og:title","content":"行動する知性。"},{"hid":"og:description","property":"og:description","content":"行動する知性。ジェネレータ！！！（中央大学とは無関係です）"},{"hid":"og:image","property":"og:image","content":"https:\u002F\u002Fmizphses.github.io\u002Fchisei\u002Fogp.png"},{"name":"twitter:card","content":"summary_large_image"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fchisei\u002Ffavicon.ico"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -178,6 +179,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_plugin_de76043e === 'function') {
     await nuxt_plugin_plugin_de76043e(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_googlegtag_5c002834 === 'function') {
+    await nuxt_plugin_googlegtag_5c002834(app.context, inject)
   }
 
   // Lock enablePreview in context
