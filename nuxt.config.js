@@ -27,9 +27,6 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/chisei/favicon.ico' }
     ],
-    script: [
-      { tyle: "text/javascript", src: "//typesquare.com/3/tsst/script/ja/typesquare.js?5ff6acfe3d584e62aab52866e90393a3", charset: "utf-8" }
-    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
