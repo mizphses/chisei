@@ -19,7 +19,7 @@ export default {
       return [random, verblist[random]]
     },
     randomize2() {
-      const random2 = Math.round(Math.random() * 39)
+      const random2 = Math.round(Math.random() * 38)
       const nounlist = ["Knowledge", "Future", "Past", "Imagine", "Tama", "Dream", "Twitter", "Professor", "Train", "Bus", "CPlus", "Manaba", "Genghis Khan", "Monorail", "Temico", "Tama", "Zoo", "Tuition", "Kiso Macro", "Themis", "Credit", "Knowledge", "Knowledge", "Chuo", "FGW", "iTL", "C Square", "Students", "Instagram", "Webex", "Intern", "Working", "Pencil", "Part Time", "Cloud Campus", "Word", "Excel", "Powerpoint", "SEX"];
       return [random2, nounlist[random2]]
     },
