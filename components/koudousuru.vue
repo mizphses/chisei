@@ -10,7 +10,7 @@
             −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
         </h2>
         <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
-        <a :href="'https://twitter.com/intent/tweet?text=行動する知性。〜Knowledge into Action〜&hashtags=行動する知性ジェネレータ&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+        <a :href="'https://twitter.com/intent/tweet?text=行動する知性。%0D〜Knowledge into Action〜%0D%0D%23行動する知性ジェネレータ&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
           Twitterに投稿！
         </a>
       </div>
@@ -26,7 +26,7 @@
         <div style="height:10em;"></div>
         <div>
         <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
-          <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%24行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+          <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
             Twitterに投稿！
           </a>
         </div>
