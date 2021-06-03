@@ -34,6 +34,8 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -44,11 +46,11 @@ export default {
 }
 
 .title {
-  font-family: 太ゴB101 JIS2004,
+  font-family: 太ゴB101 JIS2004, Noto Sans JP,
     "Futo Go B101 JIS2004",
     sans-serif;
   display: block;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 2em;
   letter-spacing: 0.3em;
   font-feature-settings: "palt";
