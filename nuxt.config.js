@@ -1,7 +1,7 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  ssr: false,
   router: {
     base: '/chisei/'
   },
@@ -15,7 +15,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { hid: 'description', name: 'description', content: '行動する知性。' },
+      { hid: 'description', name: 'description', content: '行動する知性。ジェネレータ！！！' },
       { hid: 'og:site_name', property: 'og:site_name', content: '行動する知性。' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://mizphses.github.io/chisei' },

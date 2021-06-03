@@ -14,12 +14,12 @@ export default {
   },
   computed: {
     randomize1() {
-      const random = Math.round(Math.random() * 40)
+      const random = Math.round(Math.random() * 39)
       const verblist = ["Die", "Action", "Oversleep", "Overwork", "Forget", "Drop", "Miss", "Obtain", "Subscribe", "Fail", "Talk", "Increase", "Play", "Stop", "Change", "Edit", "Kill", "Arise", "Overcome", "Mistake", "Misunderstand", "Overhear", "Overlook", "Undergo", "Swipe", "Broadcast", "Pray", "Quit", "Overtake", "Encounter", "Seek", "Bite", "Bind", "Ring", "Dream", "Contain", "Belong", "Put", "Gain", "Sex"];
       return [random, verblist[random]]
     },
     randomize2() {
-      const random2 = Math.round(Math.random() * 39)
+      const random2 = Math.round(Math.random() * 38)
       const nounlist = ["Knowledge", "Future", "Past", "Imagine", "Tama", "Dream", "Twitter", "Professor", "Train", "Bus", "CPlus", "Manaba", "Genghis Khan", "Monorail", "Temico", "Tama", "Zoo", "Tuition", "Kiso Macro", "Themis", "Credit", "Knowledge", "Dream", "Chuo", "FGW", "iTL", "C Square", "Students", "Instagram", "Webex", "Intern", "Working", "Pencil", "Part Time", "Cloud Campus", "Word", "Excel", "Powerpoint", "SEX"];
       return [random2, nounlist[random2]]
     },
