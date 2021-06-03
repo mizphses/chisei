@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="randomize1=='行動' & randomize2 == '知性'">
+    <div v-if="randomize1[1]=='Action' & randomize2[1] == 'Knowledge'">
       <div>
         <p style="font-size:5em; color:red; font-family:sans-serif; font-weight:600;">C</p>
         <h1 class="title">
