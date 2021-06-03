@@ -14,7 +14,7 @@ export default {
   },
   computed: {
     randomize1() {
-      const random = Math.round(Math.random() * 41)
+      const random = Math.round(Math.random() * 40)
       const verblist = ["Die", "Action", "Oversleep", "Overwork", "Forget", "Drop", "Miss", "Obtain", "Subscribe", "Fail", "Talk", "Increase", "Play", "Stop", "Change", "Edit", "Kill", "Arise", "Overcome", "Mistake", "Misunderstand", "Overhear", "Overlook", "Undergo", "Swipe", "Broadcast", "Pray", "Quit", "Overtake", "Encounter", "Seek", "Bite", "Bind", "Ring", "Dream", "Contain", "Belong", "Put", "Gain", "Sex"];
       return [random, verblist[random]]
     },
