@@ -3,7 +3,7 @@ export default {
   target: 'static',
 
   router: {
-    base: '/<repository-name>/'
+    base: '/chisei/'
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -25,7 +25,7 @@ export default {
       { name: 'twitter:card', content: 'summary_large_image' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/chisei/favicon.ico' }
     ],
     script: [
       { tyle: "text/javascript", src: "//typesquare.com/3/tsst/script/ja/typesquare.js?5ff6acfe3d584e62aab52866e90393a3", charset: "utf-8" }
