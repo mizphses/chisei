@@ -137,6 +137,7 @@
         <a href="http://www.zoom.us/">
           <img src="/chisei/zoom.png" />
         </a>
+        <a href="//chuo-u-ac-jp.zoom.us"><p>ちなみに作者はコラボレーション機能以外はWebex嫌いです。</p></a>
         <h1 class="title">
           {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
         </h1>
