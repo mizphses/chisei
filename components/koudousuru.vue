@@ -91,7 +91,7 @@
     <div v-else-if="randomize2[1] == 'Webex'">
       <div>
         <a href="http://www.zoom.us/">
-          <img src="/assets/zoom.png" />
+          <img src="/chisei/zoom.png" />
         </a>
         <h1 class="title">
           {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
