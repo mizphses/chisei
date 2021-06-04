@@ -429,7 +429,7 @@
       </div>
     </div>
 
-    <div v-else-if="randomize1[1] == randomize2[1] == 'Sex'">
+    <div v-else-if="randomize1[1] == 'Sex' & randomize2[1] == 'Sex'">
       <p class="title" style="color:linear-gradient(106deg,red,orange,yellow,green,aqua,blue,purple);font-family:sans-serif;font-weight:900;font-size:5em;">
         SEX
       </p>
@@ -504,6 +504,52 @@
       <a class="title" href="https://inaniwaudon.github.io/itf-maker/">
         IMAGINE THE FUTURE.
       </a>
+    </div>
+
+    <div v-else-if="randomize2[1] == 'BIlling' & randomize1[1] == 'Tution'">
+      <p><i><small>課金！課金！が！く！ひ！</small></i></p>
+
+        <h1 class="title">
+          {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
+        </h1>
+        <h2 class="subtitle">
+            −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
+        </h2>
+    </div>
+
+    <div v-else-if="randomize2[1] == 'Tama' & randomize1[1] == 'Die'">
+      <p><small>ご冥福をお祈りいたします。</small></p>
+
+        <h1 class="title">
+          {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
+        </h1>
+        <h2 class="subtitle">
+            −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
+        </h2>
+    </div>
+
+    <div v-else-if="randomize2[1] == 'Bus'">
+      <p><small>どっちが攻め？受け？</small></p>
+
+        <h1 class="title">
+          {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
+        </h1>
+        <h2 class="subtitle">
+            −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
+        </h2>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCzNmNDwIviDIY4NWYxLKFbwg1zE91sO53ehSLxQJxJb9HiQ/viewform?embedded=true" width="640" height="457" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+    </div>
+
+    <div v-else-if="randomize2[1] == 'Monorail'">
+      <p><small>どっちが攻め？受け？</small></p>
+
+        <h1 class="title">
+          {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
+        </h1>
+        <h2 class="subtitle">
+            −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
+        </h2>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCzNmNDwIviDIY4NWYxLKFbwg1zE91sO53ehSLxQJxJb9HiQ/viewform?embedded=true" width="640" height="457" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
     </div>
 
     <div v-else>
@@ -855,7 +901,7 @@
 export default {
   data() {
     return{
-      nounlist: ["知性", "未来", "過去", "想像", "多摩キャン", "夢", "ツイッター", "教授", "電車", "バス", "CPlus", "Manaba", "ジンギスカン", "モノレール", "Temico", "多摩", "多摩動物公園", "学費", "基礎マクロ経済学", "テミス", "信用", "単位", "知性", "知性", "中央大学", "フォレゲ", "iTL", "Cスクエア", "学生", "インスタ", "Webex", "インターン", "労働", "鉛筆", "バイト", "クラウドキャンパス", "Word", "Excel", "Powerpoint", "性別"],
+      nounlist: ["知性", "未来", "過去", "想像", "多摩キャン", "夢", "ツイッター", "教授", "電車", "バス", "CPlus", "Manaba", "ジンギスカン", "モノレール", "Temico", "多摩", "多摩動物公園", "学費", "基礎マクロ経済学", "テミス", "信用", "単位", "知性", "知性", "中央大学", "フォレゲ", "iTL", "Cスクエア", "学生", "インスタ", "Webex", "インターン", "労働", "鉛筆", "バイト", "クラウドキャンパス", "Word", "Excel", "Powerpoint", "国際情報概論", "獣医学部", "性別"],
       verblist: ["死亡", "行動", "絶起", "過労", "忘却", "落下", "喪失", "獲得", "登録", "落単", "会話", "増加", "遊戯", "停止", "変化", "編集", "殺害", "惹起", "克服", "過誤", "錯誤", "盗聴", "見落し", "引受", "掃出", "放送", "祈願", "脱出", "追越", "エンカ", "要求", "咀嚼", "束縛", "鳴動", "夢想", "含有", "所持", "据付", "散財", "課金", "入手", "獣医学部", "性交"],
     }
   },
