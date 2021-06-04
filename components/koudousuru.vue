@@ -15,8 +15,52 @@
         </a>
       </div>
     </div>
-
-    <div v-else-if="randomize1[1] == 'Sex' & randomize2[1] == 'Sex'">
+    <div v-if="randomize1[1]=='Faculty of Veterinary Medicine'">
+      <div>
+        <a style="font-size:5em; color:red; font-family:sans-serif; font-weight:600;transform: scale(1.5, 1);" href="https://www.tokyo-zoo.net/policy/site.html">中央大学獣医学部</a>
+        <h1 class="title">
+          {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
+        </h1>
+        <h2 class="subtitle">
+            −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
+        </h2>
+        <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
+        <a :href="'https://twitter.com/intent/tweet?text=行動する知性。%0D〜Knowledge into Action〜%0D%0D%23行動する知性ジェネレータ&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+          Twitterに投稿！
+        </a>
+      </div>
+    </div>
+    <div v-if="randomize2[1]=='Faculty of Veterinary Medicine'">
+      <div>
+        <a style="font-size:5em; color:red; font-family:sans-serif; font-weight:600;transform: scale(1.5, 1);" href="https://www.chuo-u.ac.jp/academics/">中央大学獣医学部霊長類研究所</a>
+        <h1 class="title">
+          {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
+        </h1>
+        <h2 class="subtitle">
+            −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
+        </h2>
+        <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
+        <a :href="'https://twitter.com/intent/tweet?text=行動する知性。%0D〜Knowledge into Action〜%0D%0D%23行動する知性ジェネレータ&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+          Twitterに投稿！
+        </a>
+      </div>
+    </div>
+    <div v-if="randomize2[1]=='Zoo'">
+      <div>
+        <a style="font-size:5em; color:red; font-family:sans-serif; font-weight:600;transform: scale(1.5, 1);" href="https://www.chuo-u.ac.jp/academics/">多摩動物公園霊長類館</a>
+        <h1 class="title">
+          {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
+        </h1>
+        <h2 class="subtitle">
+            −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
+        </h2>
+        <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
+        <a :href="'https://twitter.com/intent/tweet?text=行動する知性。%0D〜Knowledge into Action〜%0D%0D%23行動する知性ジェネレータ&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+          Twitterに投稿！
+        </a>
+      </div>
+    </div>
+    <div v-else-if="randomize1[1] == 'Sex' & randomize2[1] == 'SEX'">
       <p class="title" style="color:linear-gradient(106deg,red,orange,yellow,green,aqua,blue,purple);font-family:sans-serif;font-weight:900;font-size:5em;">
         SEX
       </p>
@@ -937,7 +981,7 @@
 </g>
 </svg>
 </a>
-
+<p>追加希望、削除要請は上記RepoのIssueか作者TwitterのDMまで。</p>
     </div>
   </div>
 </template>
