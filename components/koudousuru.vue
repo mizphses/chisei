@@ -17,7 +17,7 @@
     </div>
     <div v-if="randomize1[1]=='Faculty of Veterinary Medicine'">
       <div>
-        <a style="font-size:5em; color:red; font-family:sans-serif; font-weight:600;transform: scale(1.5, 1);" href="https://www.tokyo-zoo.net/policy/site.html">中央大学獣医学部</a>
+        <a style="font-size:5em; color:red; font-family:sans-serif; font-weight:600;transform: scale(1.5, 1);" href="https://www.tokyo-zoo.net/zoo/tama/">中央大学獣医学部</a>
         <h1 class="title">
           {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
         </h1>
