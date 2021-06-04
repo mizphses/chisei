@@ -435,7 +435,7 @@
       </p>
     </div>
 
-    <div v-else-if="randomize2[1] == 'Manaba' & randomize1[1] == 'Stop'">
+    <div v-else-if="randomize2[1] == 'Manaba'">
       <div>
         <img src="https://rimage.gnst.jp/rest/img/527drbhw0000/s_0n9s.jpg?t=1605260205&g=670" />
         <h1 class="title">
