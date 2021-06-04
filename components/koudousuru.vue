@@ -160,13 +160,13 @@
         <h2 class="subtitle">
             −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
         </h2>
+        <div>
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCzNmNDwIviDIY4NWYxLKFbwg1zE91sO53ehSLxQJxJb9HiQ/viewform?embedded=true" width="640" height="457" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe></div>
         <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
           <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
             Twitterに投稿！
           </a>
-        </div>
-
+    </div>
 
     <div v-else-if="randomize2[1] == 'Monorail'">
       <p><small>どっちが攻め？受け？</small></p>
@@ -176,14 +176,14 @@
         </h1>
         <h2 class="subtitle">
             −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
-        </h2><div>
+        </h2>
+        <div>
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCzNmNDwIviDIY4NWYxLKFbwg1zE91sO53ehSLxQJxJb9HiQ/viewform?embedded=true" width="640" height="457" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe></div>
         <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
           <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
             Twitterに投稿！
           </a>
-        </div>
-
+    </div>
     <div v-else-if="randomize1 != randomize2">
       <div>
         <h1 class="title">
