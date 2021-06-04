@@ -20,6 +20,10 @@
       <p class="title" style="color:linear-gradient(106deg,red,orange,yellow,green,aqua,blue,purple);font-family:sans-serif;font-weight:900;font-size:5em;">
         SEX
       </p>
+      <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
+      <a :href="'https://twitter.com/intent/tweet?text=SEX！！！！！%0D%0D%23行動する知性ジェネレータ&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+        Twitterに投稿！
+      </a>
     </div>
 
     <div v-else-if="randomize2[1] == 'Manaba'">
@@ -76,7 +80,7 @@
         <div style="height:10em;"></div>
         <div>
         <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
-          <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+          <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%中大学費回収サークル%0D%0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
             Twitterに投稿！
           </a>
         </div>
@@ -84,7 +88,7 @@
       </div>
     </div>
 
-    <div v-else-if="randomize2[1] == 'Webex' & randomize1[1] == 'Stop'">
+    <div v-else-if="randomize2[1] == 'Webex'">
       <div>
         <a href="http://www.zoom.us/">
           <img src="/zoom.png" />
@@ -98,7 +102,7 @@
         <div style="height:10em;"></div>
         <div>
         <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
-          <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+          <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%中大学費回収サークル%0D%0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
             Twitterに投稿！
           </a>
         </div>
@@ -111,20 +115,28 @@
       <a class="title" href="https://inaniwaudon.github.io/itf-maker/">
         IMAGINE THE FUTURE.
       </a>
-    </div>
+        <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
+          <a :href="'https://twitter.com/intent/tweet?text=IMAGINE THE FUTURE.%0D%%0D%23ITF.0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+            Twitterに投稿！
+          </a>
+        </div>
 
     <div v-else-if="randomize2[1] == 'BIlling' & randomize1[1] == 'Tution'">
       <p><i><small>課金！課金！が！く！ひ！</small></i></p>
 
-        <h1 class="title">
-          {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
-        </h1>
-        <h2 class="subtitle">
-            −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
-        </h2>
-    </div>
+      <h1 class="title">
+        {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
+      </h1>
+      <h2 class="subtitle">
+          −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
+      </h2>
+        <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
+          <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%中大学費回収サークル%0D%0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+            Twitterに投稿！
+          </a>
+        </div>
 
-    <div v-else-if="randomize2[1] == 'Tama' & randomize1[1] == 'Die'">
+    <div v-else-if="randomize1[1] == 'Die'">
       <p><small>ご冥福をお祈りいたします。</small></p>
 
         <h1 class="title">
@@ -133,7 +145,11 @@
         <h2 class="subtitle">
             −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
         </h2>
-    </div>
+        <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
+          <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%中大学費回収サークル%0D%0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+            Twitterに投稿！
+          </a>
+        </div>
 
     <div v-else-if="randomize2[1] == 'Bus'">
       <p><small>どっちが攻め？受け？</small></p>
@@ -144,8 +160,13 @@
         <h2 class="subtitle">
             −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
         </h2>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCzNmNDwIviDIY4NWYxLKFbwg1zE91sO53ehSLxQJxJb9HiQ/viewform?embedded=true" width="640" height="457" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
-    </div>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCzNmNDwIviDIY4NWYxLKFbwg1zE91sO53ehSLxQJxJb9HiQ/viewform?embedded=true" width="640" height="457" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe></div>
+        <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
+          <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+            Twitterに投稿！
+          </a>
+        </div>
+
 
     <div v-else-if="randomize2[1] == 'Monorail'">
       <p><small>どっちが攻め？受け？</small></p>
@@ -155,9 +176,13 @@
         </h1>
         <h2 class="subtitle">
             −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
-        </h2>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCzNmNDwIviDIY4NWYxLKFbwg1zE91sO53ehSLxQJxJb9HiQ/viewform?embedded=true" width="640" height="457" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
-    </div>
+        </h2><div>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCzNmNDwIviDIY4NWYxLKFbwg1zE91sO53ehSLxQJxJb9HiQ/viewform?embedded=true" width="640" height="457" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe></div>
+        <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
+          <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+            Twitterに投稿！
+          </a>
+        </div>
 
     <div v-else-if="randomize1 != randomize2">
       <div>
