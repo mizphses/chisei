@@ -25,8 +25,8 @@
             −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
         </h2>
         <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
-        <a :href="'https://twitter.com/intent/tweet?text=行動する知性。%0D〜Knowledge into Action〜%0D%0D%23行動する知性ジェネレータ&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
-          Twitterに投稿！
+        <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%23中央大学獣医学部%0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+            Twitterに投稿！
         </a>
       </div>
     </div>
@@ -40,8 +40,8 @@
             −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
         </h2>
         <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
-        <a :href="'https://twitter.com/intent/tweet?text=行動する知性。%0D〜Knowledge into Action〜%0D%0D%23行動する知性ジェネレータ&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
-          Twitterに投稿！
+          <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%23中央大学獣医学部霊長類研究所%0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+            Twitterに投稿！
         </a>
       </div>
     </div>
@@ -55,8 +55,8 @@
             −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
         </h2>
         <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
-        <a :href="'https://twitter.com/intent/tweet?text=行動する知性。%0D〜Knowledge into Action〜%0D%0D%23行動する知性ジェネレータ&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
-          Twitterに投稿！
+          <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%23多摩動物公園霊長類館%0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
+            Twitterに投稿！
         </a>
       </div>
     </div>
