@@ -22,7 +22,7 @@
       </p>
     </div>
 
-    <div v-else-if="randomize2[0] == 'Manaba'">
+    <div v-else-if="randomize2[1] == 'Manaba'">
       <div>
         <img src="https://rimage.gnst.jp/rest/img/527drbhw0000/s_0n9s.jpg?t=1605260205&g=670" />
         <h1 class="title">
@@ -42,7 +42,7 @@
       </div>
     </div>
 
-    <div v-else-if="randomize2[0] == 'Genghis Khan'">
+    <div v-else-if="randomize2[1] == 'Genghis Khan'">
       <div>
         <img src="https://rimage.gnst.jp/rest/img/527drbhw0000/s_0n9s.jpg?t=1605260205&g=670" />
         <h1 class="title">
