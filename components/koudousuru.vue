@@ -72,7 +72,7 @@
 
     <div v-else-if="randomize2[1] == 'Manaba'">
       <div>
-        <img src="https://rimage.gnst.jp/rest/img/527drbhw0000/s_0n9s.jpg?t=1605260205&g=670" />
+        <img width="100vw" src="https://rimage.gnst.jp/rest/img/527drbhw0000/s_0n9s.jpg?t=1605260205&g=670" />
         <h1 class="title">
           {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
         </h1>
@@ -92,7 +92,7 @@
 
     <div v-else-if="randomize2[1] == 'Genghis Khan'">
       <div>
-        <img src="https://rimage.gnst.jp/rest/img/527drbhw0000/s_0n9s.jpg?t=1605260205&g=670" />
+        <img width="100vw" src="https://rimage.gnst.jp/rest/img/527drbhw0000/s_0n9s.jpg?t=1605260205&g=670" />
         <h1 class="title">
           {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
         </h1>
@@ -113,7 +113,7 @@
     <div v-else-if="randomize2[1] == 'Tution' & randomize1[1] == 'Increase'">
       <div>
         <a href="http://www.tsukyo.chuo-u.ac.jp/">
-          <img src="https://naokun-papa.com/wp-content/uploads/2020/04/8man-scaled.jpg" />
+          <img width="100vw" src="https://naokun-papa.com/wp-content/uploads/2020/04/8man-scaled.jpg" />
         </a>
         <h1 class="title">
           {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
@@ -135,7 +135,7 @@
     <div v-else-if="randomize2[1] == 'Webex'">
       <div>
         <a href="http://www.zoom.us/">
-          <img src="/chisei/zoom.png" />
+          <img width="100vw" src="/chisei/zoom.png" />
         </a>
         <a href="//chuo-u-ac-jp.zoom.us"><p>ちなみに作者はコラボレーション機能以外はWebex嫌いです。</p></a>
         <h1 class="title">
@@ -223,7 +223,7 @@
             −−−{{ randomize2[1] }} into {{ randomize1[1] }}−−−
         </h2>
         <div>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCzNmNDwIviDIY4NWYxLKFbwg1zE91sO53ehSLxQJxJb9HiQ/viewform?embedded=true" width="640" height="457" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe></div>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCzNmNDwIviDIY4NWYxLKFbwg1zE91sO53ehSLxQJxJb9HiQ/viewform?embedded=true" width="200" height="457" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe></div>
         <a href="https://mizphses.github.io/chisei/" class="btn-square">再読み込み</a>
           <a :href="'https://twitter.com/intent/tweet?text='+ verblist[randomize1[0]] + 'する' + nounlist[randomize2[0]] +'。%0D〜'+ randomize2[1] + ' into ' + randomize1[1] +'〜%0D%0D%23行動する知性ジェネレータ%0D&url=https://mizphses.github.io/chisei'" target="_blank" class="btn-square">
             Twitterに投稿！
