@@ -72,7 +72,7 @@
 
     <div v-else-if="randomize2[1] == 'Manaba'">
       <div>
-        <img width="100vw" src="https://rimage.gnst.jp/rest/img/527drbhw0000/s_0n9s.jpg?t=1605260205&g=670" />
+        <img width="600px" src="https://rimage.gnst.jp/rest/img/527drbhw0000/s_0n9s.jpg?t=1605260205&g=670" />
         <h1 class="title">
           {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
         </h1>
@@ -92,7 +92,7 @@
 
     <div v-else-if="randomize2[1] == 'Genghis Khan'">
       <div>
-        <img width="100vw" src="https://rimage.gnst.jp/rest/img/527drbhw0000/s_0n9s.jpg?t=1605260205&g=670" />
+        <img width="600px" src="https://rimage.gnst.jp/rest/img/527drbhw0000/s_0n9s.jpg?t=1605260205&g=670" />
         <h1 class="title">
           {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
         </h1>
@@ -113,7 +113,7 @@
     <div v-else-if="randomize2[1] == 'Tution' & randomize1[1] == 'Increase'">
       <div>
         <a href="http://www.tsukyo.chuo-u.ac.jp/">
-          <img width="100vw" src="https://naokun-papa.com/wp-content/uploads/2020/04/8man-scaled.jpg" />
+          <img width="600px" src="https://naokun-papa.com/wp-content/uploads/2020/04/8man-scaled.jpg" />
         </a>
         <h1 class="title">
           {{ verblist[randomize1[0]] }}する{{ nounlist[randomize2[0]] }}。
@@ -135,7 +135,7 @@
     <div v-else-if="randomize2[1] == 'Webex'">
       <div>
         <a href="http://www.zoom.us/">
-          <img width="100vw" src="/chisei/zoom.png" />
+          <img width="600px" src="/chisei/zoom.png" />
         </a>
         <a href="//chuo-u-ac-jp.zoom.us"><p>ちなみに作者はコラボレーション機能以外はWebex嫌いです。</p></a>
         <h1 class="title">
